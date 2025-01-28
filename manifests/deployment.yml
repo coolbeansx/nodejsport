@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejsport-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nodejsport
+  template:
+    metadata:
+      labels:
+        app: nodejsport
+    spec:
+      containers:
+        - name: nodejsport-container
+          image: :latest
+          ports:
+            - containerPort: 3000

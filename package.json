@@ -1,0 +1,9 @@
+{
+    "name": "test node js app",
+    "version": "1.0.0",
+    "description": "testing the nodejs app on port",
+    "author": "Port",
+    "scripts": {
+        "start": "node index.js"
+    }
+}

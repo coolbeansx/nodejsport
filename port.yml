@@ -1,0 +1,8 @@
+apiVersion: v0.1
+identifier: nodejsport
+title: test node js app
+blueprint: service
+properties:
+  language: nodejs
+  readme: file://README.md
+  url: https://github.com/coolbeansx/nodejsport
