@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: nodejsport-container
-          image: 222634382744.dkr.ecr.eu-west-2.amazonaws.com/nodejsport:latest
+          image: 222634382744.dkr.ecr.eu-west-2.amazonaws.com/nodejsport:build-13030051969
           ports:
             - containerPort: 3000
